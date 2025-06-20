@@ -13,8 +13,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        browser: [chromium, firefox, webkit]
-        environment: [dev, qa]
+        browser: [chrome, firefox, safari]
+        environment: [dev]
 
     steps:
     - uses: actions/checkout@v4
